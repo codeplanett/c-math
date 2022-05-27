@@ -35,12 +35,23 @@ CMakeFiles/executable.dir/SOURCE_FILES/main.c.o: ../SOURCE_FILES/main.c \
   /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/string.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/strings.h \
-  ../HEADER_FILES/triangle.h
+  ../HEADER_FILES/triangle.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
 
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
 ../HEADER_FILES/triangle.h:
 
@@ -48,7 +59,11 @@ CMakeFiles/executable.dir/SOURCE_FILES/main.c.o: ../SOURCE_FILES/main.c \
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
+/usr/include/unistd.h:
+
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
 
@@ -68,13 +83,11 @@ CMakeFiles/executable.dir/SOURCE_FILES/main.c.o: ../SOURCE_FILES/main.c \
 
 /usr/include/stdio.h:
 
-/usr/include/strings.h:
-
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
 ../SOURCE_FILES/main.c:
 
@@ -86,13 +99,9 @@ CMakeFiles/executable.dir/SOURCE_FILES/main.c.o: ../SOURCE_FILES/main.c \
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
-/usr/include/string.h:
-
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
