@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <math.h>
 
-void area(int a, int b)
+int areaRectangle(int a, int b)
 {
     printf("%d", a*b);
+    return 0;
 }
 
-void perimeter(int a, int b)
+void perimeterRectangle(int a, int b)
 {
     printf("%d", 2 * ( a + b ));
 }
@@ -15,5 +16,5 @@ void diagonal(int a, int b)
 {
    int result;
    result = sqrt(a*a + b*b);
-   printf("%d", result);
+   printf("%d\n", result);
 }

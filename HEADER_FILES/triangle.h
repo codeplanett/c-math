@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int area(int a, int b, char type[99])
+int areaTriangle(int a, int b)
 {
    int k1, k2, area;
    
@@ -10,7 +10,7 @@ int area(int a, int b, char type[99])
    return 0;
 }
 
-int perimeter(int a, int b, int c)
+int perimeterTriangle(int a, int b, int c)
 {
    printf("%d",a+b+c);
    return 0;
@@ -33,5 +33,4 @@ void print_triangle()
                 printf("\n");
                 number_of_stars = number_of_stars - 1;
         }
-        return 0;
 }

@@ -8,3 +8,4 @@ file(GLOB MAIN
         "HEADER_FILES/*.h"
     )
     add_executable(executable ${MAIN})
+    target_link_libraries(executable PRIVATE m)
