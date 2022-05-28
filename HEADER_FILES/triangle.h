@@ -7,11 +7,13 @@ int area(int a, int b, char type[99])
    
    area = (a * b)/2;
    printf("\n\nThe area of this triangle is  : %i \n\n",area);
+   return 0;
 }
 
 int perimeter(int a, int b, int c)
 {
    printf("%d",a+b+c);
+   return 0;
 }
 
 void print_triangle()

@@ -1,11 +1,19 @@
 #include <stdio.h>
+#include <math.h>
 
-int area(int a, int b)
+void area(int a, int b)
 {
     printf("%d", a*b);
 }
 
-int perimeter(int a, int b)
+void perimeter(int a, int b)
 {
     printf("%d", 2 * ( a + b ));
+}
+
+void diagonal(int a, int b)
+{
+   int result;
+   result = sqrt(a*a + b*b);
+   printf("%d", result);
 }
