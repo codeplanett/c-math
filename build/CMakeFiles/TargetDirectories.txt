@@ -1,3 +1,0 @@
-/home/tuncay/Masaüstü/Tuncay/Projects/cprojects/testing/build/CMakeFiles/executable.dir
-/home/tuncay/Masaüstü/Tuncay/Projects/cprojects/testing/build/CMakeFiles/edit_cache.dir
-/home/tuncay/Masaüstü/Tuncay/Projects/cprojects/testing/build/CMakeFiles/rebuild_cache.dir
