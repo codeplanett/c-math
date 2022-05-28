@@ -16,5 +16,6 @@ void diagonal(int a, int b)
 {
    int result;
    result = sqrt(a*a + b*b);
-   printf("%d\n", result);
+   printf("Diagonal of given rectangle is : %d\n", result);
 }
+

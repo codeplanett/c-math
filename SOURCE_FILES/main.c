@@ -9,6 +9,5 @@
 
 
 int main () {
-   diagonal(3, 8);
-   return 0;
+   printRectangle();
 }  
