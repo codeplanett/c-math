@@ -9,5 +9,13 @@
 
 
 int main () {
-   printRectangle();
-}  
+   initializeRectangle();
+   sleep(2);
+   areaRectangle();
+   sleep(2);
+   perimeterRectangle();
+   sleep(2);
+   diagonal();
+   sleep(2);
+   radiusOutOfRectangle();
+}     

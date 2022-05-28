@@ -1,12 +1,24 @@
 #include <stdio.h>
 #include <math.h>
 
-int areaTriangle(int a, int b)
+int areaTriangle(int a, int b, char type[15])
 {
-   int k1, k2, area;
+   int k1, k2, area, result;
    
-   area = (a * b)/2;
-   printf("\n\nThe area of this triangle is  : %i \n\n",area);
+
+   if(type == "right_triangle")
+   {
+      area = a * b;
+      result = area / 2;
+      printf("\n\nThe area of this triangle is  : %i \n\n",result); 
+   }
+   
+   if(!type)
+   {
+        printf("Fuck!!!");      
+   }
+
+
    return 0;
 }
 

@@ -1,21 +1,36 @@
 #include <stdio.h>
 #include <math.h>
 
-int areaRectangle(int a, int b)
-{
-    printf("%d", a*b);
-    return 0;
+int a,b;
+
+void initializeRectangle(){
+   printf("Enter width of rectangle : ");
+   scanf("%d", &a);
+
+   printf("Enter height of rectangle : ");
+   scanf("%d", &b);
 }
 
-void perimeterRectangle(int a, int b)
+void areaRectangle()
 {
-    printf("%d", 2 * ( a + b ));
+    printf("The area of initialized rectangle is : %d\n\n", a*b);
 }
 
-void diagonal(int a, int b)
+void perimeterRectangle()
+{
+    printf("The perimeter of initialized rectangle is : %d\n\n", 2 * ( a + b ));
+}
+
+void diagonal()
 {
    int result;
    result = sqrt(a*a + b*b);
-   printf("Diagonal of given rectangle is : %d\n", result);
+   printf("Diagonal of given rectangle is : %d\n\n", result);
 }
 
+void radiusOutOfRectangle()
+{
+    int result;
+   result = sqrt(a*a + b*b);
+   printf("Diagonal of given rectangle is : %d\n\n", result /2);
+}
