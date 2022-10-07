@@ -6,16 +6,9 @@
 // Files
 #include "triangle.h"
 #include "rectangle.h"
+#include "newton.h"
 
 
 int main () {
-   initializeRectangle();
-   sleep(2);
-   areaRectangle();
-   sleep(2);
-   perimeterRectangle();
-   sleep(2);
-   diagonal();
-   sleep(2);
-   radiusOutOfRectangle();
+  calculate_gravity();
 }     

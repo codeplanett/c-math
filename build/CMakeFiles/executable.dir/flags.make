@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/tuncay/Masaüstü/Tuncay/Projects/cprojects/testing/HEADER_FILES
+C_INCLUDES = -I/home/tuncay/Masaüstü/Tuncay/Projects/c-math/HEADER_FILES
 
 C_FLAGS =  -pthread -std=gnu99
 

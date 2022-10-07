@@ -43,7 +43,8 @@ CMakeFiles/executable.dir/SOURCE_FILES/main.c.o: ../SOURCE_FILES/main.c \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   ../HEADER_FILES/triangle.h \
-  ../HEADER_FILES/rectangle.h
+  ../HEADER_FILES/rectangle.h \
+  ../HEADER_FILES/newton.h
 
 
 ../HEADER_FILES/triangle.h:
@@ -97,6 +98,8 @@ CMakeFiles/executable.dir/SOURCE_FILES/main.c.o: ../SOURCE_FILES/main.c \
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+
+../HEADER_FILES/newton.h:
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
