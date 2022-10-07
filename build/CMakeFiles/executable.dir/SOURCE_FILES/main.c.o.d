@@ -1,5 +1,5 @@
 CMakeFiles/executable.dir/SOURCE_FILES/main.c.o: \
- /home/tuncay/Masaüstü/Tuncay/Projects/cprojects/testing/SOURCE_FILES/main.c \
+ /home/tuncay/Masaüstü/Tuncay/Projects/c-math/SOURCE_FILES/main.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -36,5 +36,6 @@ CMakeFiles/executable.dir/SOURCE_FILES/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /home/tuncay/Masaüstü/Tuncay/Projects/cprojects/testing/HEADER_FILES/triangle.h \
- /home/tuncay/Masaüstü/Tuncay/Projects/cprojects/testing/HEADER_FILES/rectangle.h
+ /home/tuncay/Masaüstü/Tuncay/Projects/c-math/HEADER_FILES/triangle.h \
+ /home/tuncay/Masaüstü/Tuncay/Projects/c-math/HEADER_FILES/rectangle.h \
+ /home/tuncay/Masaüstü/Tuncay/Projects/c-math/HEADER_FILES/newton.h
